@@ -1,0 +1,32 @@
+{
+  "name": "scraper-sosmed",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "dlp": "./bin/index.js",
+    "ssweb": "./bin/ssweb.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AntonThomzz",
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "simple video download tool.",
+  "keywords": [
+    "scraper",
+    "tiktok",
+    "facebook",
+    "youtube",
+    "twitter",
+    "instagram",
+    "downloader",
+    "sosmed",
+    "scraper-sosmed",
+    "metadata",
+    "scraping",
+    "AntonThomzz"
+  ],
+  "dependencies": {
+    "scraper-sosmed": "latest"
+  }
+}
