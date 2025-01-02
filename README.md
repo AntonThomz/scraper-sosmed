@@ -1,10 +1,10 @@
 <h1 align="center">
-	<br>
-		<br>
-			<img width="320" src="https://i.imgur.com/U68ak1j.jpeg" alt="scraper-sosmed">
-		<br>
-		<br>
-	<br>
+<br>
+<br>
+<img width="100%" src="https://i.imgur.com/U68ak1j.jpeg" alt="scraper-sosmed">
+<br>
+<br>
+<br>
 </h1>
 
 # Scraper Sosmed  
@@ -113,7 +113,7 @@ const ton = require("scraper-sosmed");
 - SSHP 
 
 ```javascript
-const ton = require("scraper-sosme");
+const ton = require("scraper-sosmed");
 
 (async () => {
   ton.sshp("http://www.antoncodde.online")
@@ -124,10 +124,10 @@ const ton = require("scraper-sosme");
 - SSPC 
 
 ```javascript
-const ton = require("scraper-sosme");
+const ton = require("scraper-sosmed");
 
 (async () => {
-  ton.sshp("http://www.antoncodde.online")
+  ton.sspc("http://www.antoncodde.online")
      .then(data => consol.log(data))
      .catc(err => consol.log(err))
 })();
