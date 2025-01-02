@@ -85,7 +85,7 @@ const ton = require("scraper-sosmed");
 const ton = require("scraper-sosmed");
 
 (async () => {
-   ton.twdl("https://www.tiktok.com/@omagadsus/video/7025456384175017243?is_from_webapp=1&sender_device=pc&web_id6982004129280116226")
+   ton.twdl("https://twitter.com/gofoodindonesia/status/1229369819511709697")
       .then(data => console.log(data))
       .catch(err => console.log(err));
 })();
@@ -97,6 +97,44 @@ const ton = require("scraper-sosmed");
 - TikTok  
 - Twitter  
 - YouTube
+
+## website screensh
+ Apart from the social media scraping feature, we also have a feature for taking website image
+
+- SSHP 
+
+```javascript
+const ton = require("scraper-sosme");
+
+(async () => {
+  ton.sshp("http://www.antoncodde.online")
+     .then(data => consol.log(data))
+     .catc(err => consol.log(err))
+})();
+```
+- SSPC 
+
+```javascript
+const ton = require("scraper-sosme");
+
+(async () => {
+  ton.sshp("http://www.antoncodde.online")
+     .then(data => consol.log(data))
+     .catc(err => consol.log(err))
+})();
+```
+## Example of SSWE output
+
+```bash
+{
+  status: 200,
+  owner: 'AntonThomzz',
+  Issues: 'https://github.com/AntonThomz',
+  data: {
+    url: 'https://res.cloudinary.com/ddwxu3hhz/image/upload/v1735848728/ihvnroch55t7omjd4a5g.png'
+  }
+}
+```
 
 ## Example of TikTok output  
 
