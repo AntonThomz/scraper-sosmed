@@ -1,3 +1,12 @@
+<h1 align="center">
+	<br>
+		<br>
+			<img width="320" src="https://i.imgur.com/U68ak1j.jpeg" alt="scraper-sosmed">
+		<br>
+		<br>
+	<br>
+</h1>
+
 # Scraper Sosmed  
 
 [![NPM Version](https://img.shields.io/npm/v/scraper-sosmed.svg)](https://www.npmjs.com/package/scraper-sosmed)  
@@ -98,7 +107,7 @@ const ton = require("scraper-sosmed");
 - Twitter  
 - YouTube
 
-## website screensh
+## website screenshot
  Apart from the social media scraping feature, we also have a feature for taking website image
 
 - SSHP 
@@ -123,7 +132,7 @@ const ton = require("scraper-sosme");
      .catc(err => consol.log(err))
 })();
 ```
-## Example of SSWE output
+## Example of SSWEB output
 
 ```bash
 {
